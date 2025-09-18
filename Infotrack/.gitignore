@@ -1,0 +1,75 @@
+## Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+## .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio cache/options
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider (JetBrains)
+.idea/
+*.sln.iml
+
+# Visual Studio Code
+.vscode/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+
+# Packages
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+*.dll
+*.exe
+*.app
+*.so
+*.dylib
+
+# Test results
+TestResults/
+*.coverage
+*.coveragexml
+*.testresults
+*.trx
+
+# Generated files
+*.generated.cs
+*_i.c
+*_p.c
+*_h.h
+*.tmp
+
+# Publish output
+publish/
+out/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Other
+*.swp
+*.bak
+*.old
+*.orig
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper

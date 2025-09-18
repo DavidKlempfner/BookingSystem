@@ -8,11 +8,7 @@ namespace Infotrack.Filters
     {
         public void OnException(ExceptionContext context)
         {
-            if (context.Exception is InvalidBookingException invalidBookingException)
-            {
-                //context.Result = new BadRequestObjectResult(new { error = invalidBookingException.Message });
-            }
-            else if (context.Exception is BookingConflictException bookingConflictException)
+            if (context.Exception is BookingConflictException bookingConflictException)
             {
                 context.Result = new ConflictObjectResult(new { error = bookingConflictException.Message });
             }
